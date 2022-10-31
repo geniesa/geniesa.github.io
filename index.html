@@ -18,16 +18,16 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
     body {
         font-family: 'Work Sans', Sans-serif;
-        background-color: rgb(21, 59, 71);}
-    a {color: teal;}
+        background-color: #153b47;}
+    a {color: darkcyan;}
     h1 {font-weight: 800;}
     h2 {font-weight: 700;}
     h3 {font-weight: 800;}
     .lead {font-weight:600;}
     a:hover {color: darkgoldenrod;}
-    .jumbotron {color: rgb(119, 201, 197)}
+    .jumbotron {color: #77c9c5}
     .display-1 {
-      color: rgb(173, 245, 241);
+      color: #adf5f1;
       font-weight: 700;
     }
     .btn {
@@ -41,12 +41,12 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
       margin-top: 0;
     }
     .card-body {
-      background-color: rgb(198, 209, 209);
+      background-color: #c6d1d1;
       border-radius: 0;
       border-right: 0;
       border-left: 0;
       border-bottom: 0;
-      border-top-color: rgb(240, 173, 78);
+      border-top-color: #f0ad4e;
       border-top-width: 10px;
     }
 
@@ -70,7 +70,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <div class="jumbotron jumbotron-fluid mt-5 mb-0 pb-md-3 border-0">
     <div class="container p-0">
     <h1 class="display-1">Kia ora,<br>I’m Genie.</br></h1>
-    <p class="lead" style="color:teal">She/her.</p>
+    <p class="lead" style="color:darkcyan">She/her.</p>
     <p class="lead">I’m a content designer and writer, mostly. Sometimes I even get paid to do that stuff.
     <p>These days, I’m based in Wellington, Aotearoa.</p>
     <!-- We definitely have a paranormal unit to investigate Paranormal Activity. -->
@@ -88,22 +88,22 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     </div>
 </div>
 
- <div id="nav" aria-label="Accordions controlled by navigation buttons">
+ <div id="nav" aria-label="Sections of content behind accordions controlled by a set of navigation buttons">
     <p>
-    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#whatIDo" aria-expanded="false" aria-controls="whatIDo">Skills</button>
+    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#whatIDo" aria-expanded="false" aria-controls="whatIDo" aria-labelledby="Toggle for general skills and stuff about me">Skills</button>
     <!-- as the great philosopher Napoleon Dynamite would call it -->
 
-    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#portfolio" aria-expanded="false" aria-controls="portfolio">Portfolio</button>
+    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#portfolio" aria-expanded="false" aria-controls="portfolio" aria-labelledby="Toggle for portfolio">Portfolio</button>
 
-    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#history" aria-expanded="false" aria-controls="history">History</button>
+    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#history" aria-expanded="false" aria-controls="history" aria-labelledby="Toggle for work history">History</button>
 
-    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact">Say hello</button>
+    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact" aria-labelledby="Toggle for contact details">Say hello</button>
 
-    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#thingsILike" aria-expanded="false" aria-controls="thingsILike">Cool stuff</button>
+    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#thingsILike" aria-expanded="false" aria-controls="thingsILike" aria-labelledby="Toggle for random fun links">Cool stuff</button>
     </p>
 
     <!-- content for SKILLS -->
-    <div class="collapse" id="whatIDo" data-parent="#nav">
+    <div class="collapse" id="whatIDo" data-parent="#nav" aria-labelledby="Section about what I do">
         <div class="card card-body">
         <h1>What I can do.</h1>
         <p>I've been working on content, communications, and marketing-related stuff for the last decade. I like avoiding empty rhreotric and making things as simple — and sustainable — as possible.</p>
@@ -143,7 +143,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
         <h2>Software</h2>
         <ul>
-            <li>CMSes: Silverstripe, Webflow, Drupal, Contentful, Adobe Experience Manager, Wordpress, and... most of them, really.</li>
+            <li>CMSes: Silverstripe, Webflow, Drupal, Contentful, Adobe Experience Manager, Sanity, Wordpress, and... most of them, really.</li>
             <li>Adobe Creative Suite (Photoshop, InDesign, Illustrator)</li>
             <li>Design prototyping software (Figma, Adobe XD)</li>
             <li>Google Analytics and Google Search Console</li>
@@ -166,7 +166,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <!-- End of SKILLS content -->
 
     <!-- content for WORK -->
-    <div class="collapse indent" id="portfolio" data-parent="#nav">
+    <div class="collapse indent" id="portfolio" data-parent="#nav" aria-labelledby="This section is my portfolio and writing samples">
         <div class="card card-body">
         <h1>What I’ve done.</h1>
         <p>You’ll mostly see stuff from the public sector and academia. I’ve spent a lot of time in those places. I have actually been in other places too, I promise.</p>
@@ -179,20 +179,20 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         <!-- Subnavigation for portfolio -->
         <div id="portfolioNav">
             <p>
-              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#digital" aria-expanded="false" aria-controls="digital">Digital</button>
+              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#digital" aria-expanded="false" aria-controls="digital" aria-labelledby="Toggle for digital projects">Digital</button>
 
-              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#stories" aria-expanded="false" aria-controls="stories">Stories</button>
+              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#stories" aria-expanded="false" aria-controls="stories" aria-labelledby="Toggle for news stories">Stories</button>
 
-              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#copy" aria-expanded="false" aria-controls="copy">Copy</button>
+              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#copy" aria-expanded="false" aria-controls="copy" aria-labelledby="Toggle for marketing and communications copy">Copy</button>
 
-              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#academia" aria-expanded="false" aria-controls="academia">Academia</button>
+              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#academia" aria-expanded="false" aria-controls="academia" aria-labelledby="Toggle for academic publishing and work">Academia</button>
 
-              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#play" aria-expanded="false" aria-controls="play">Play</button>
+              <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#play" aria-expanded="false" aria-controls="play" aria-labelledby="Toggle for some silly work">Play</button>
             </p>
         <hr>
 
             <!-- Content for PORTFOLIO: DIGITAL -->
-            <div class="collapse" id="digital" data-parent="#portfolioNav">
+            <div class="collapse" id="digital" data-parent="#portfolioNav" aria-labelledby="Section on digital projects">
             <h2>Digital content</h2>
             <p>I’ve been involved with web overhauls as a digital content lead, working on stuff like content strategy, content design, web audits, comments on UI/UX, user research, and written words. When I’m not spending time on projects of that scale, I tackle individual pages, sites, tools, apps, style guides, or whatever. A lot of my work also involves rewriting things with the user and accessibility in mind.</p>
 
@@ -218,7 +218,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
             <!-- Content for PORTFOLIO: STORIES -->
-            <div class="collapse" id="stories" data-parent="#portfolioNav">
+            <div class="collapse" id="stories" data-parent="#portfolioNav" aria-labelledby="Section for news articles and stories">
             <h2>Stories</h2>
             <p>This is a small sample of the many pieces I have written, with no bylines due to the nature of the job. 
             <!-- If anyone’s worried about proof or whatever, I’ve worked in academia for too long to know the consequences of claiming someone else’s work as mine. Also, nobody else would want to claim this garbage, ah ha ha, IMPOSTOR SYNDROME MIC DROP. -->
@@ -256,7 +256,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             </div>
 
             <!-- Content for PORTFOLIO: COPY -->
-            <div class="collapse" id="copy" data-parent="#portfolioNav">
+            <div class="collapse" id="copy" data-parent="#portfolioNav" aria-labelledby="Section with copywriting samples">
                 <h2>Communications and marketing copy</h2>
                 <p>I’ve written my share of marketing copy for print (brochures, glossy signs, that paper inside fortune cookies, etc) and digital mediums (newsletters, social media posts, thought leadershippy blogs, etc). I was young once and have been paid to write to SEO requirements, but on principle, I’m against obsessive keyword-stuffing, buzzwords, and will always recommend writing natural, useful content for humans rather than machines.</p>
                 <!-- 😬 SORRY NOT SORRY. -->
@@ -289,7 +289,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
             <!-- Content for PORTFOLIO: ACADEMIA -->
-            <div class="collapse" id="academia" data-parent="#portfolioNav">
+            <div class="collapse" id="academia" data-parent="#portfolioNav" aria-labelledby="Section on academic history">
             <h2>Academia</h2>
             <p>aka ‘way back when I thought a career in academia would be cool and fine for whatever reason’.</p>
             <strong>Writing and research</strong>
@@ -311,7 +311,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
             <!-- Content for PORTFOLIO: PLAY -->
-            <div class="collapse" id="play" data-parent="#portfolioNav">
+            <div class="collapse" id="play" data-parent="#portfolioNav" aria-labelledby="Section for silly things I have made">
             <h2>Play</h2>
             <p>This is where I have decided to put the wacky fun.</p>
             <strong>Garbage on GitHub</strong>
@@ -335,7 +335,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
       <!-- End of PORTFOLIO content -->
 
       <!-- content for HISTORY -->
-    <div class="collapse indent" id="history" data-parent="#nav">
+    <div class="collapse indent" id="history" data-parent="#nav" aria-labelledby="Section on work history">
         <div class="card card-body">
         <h1>Where I’ve been.</h1>
         <p>Part-time, full-time, any time.</p>
@@ -431,10 +431,10 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         <h3>No, I did not forget about me promising pictures of koalas.</h3>
         <p>Koalas are kinda jerks though. I mean, I’m not really going to spend a bunch of space bagging on koalas.
         </p>
-        <p><button class="btn btn-outline-dark btn-sm" type="button" data-toggle="collapse" data-target="#buttonKoala" aria-expanded="false" aria-controls="buttonKoala">Okay, maybe I will.</button></p>
+        <p><button class="btn btn-outline-dark btn-sm" type="button" data-toggle="collapse" data-target="#buttonKoala" aria-expanded="false" aria-controls="buttonKoala" aria-labelledby="Push this button if you really want a stupid spiel about koalas">Okay, maybe I will.</button></p>
 
         <!-- Koala bullshit, because koalas are bullshit. -->
-        <div class="collapse" id="buttonKoala">
+        <div class="collapse" id="buttonKoala" aria-labelledby="Sub-section about how dumb koalas are">
         <b>Reasons why koalas are stupid jerks:</b>
         <ul>
             <li>You can’t expect to get any respect if you sleep 18-22 hours a day, unlike <a
@@ -489,7 +489,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <!-- End of HISTORY content -->
 
     <!-- content for SAY HELLO -->
-    <div class="collapse indent" id="contact" data-parent="#nav">
+    <div class="collapse indent" id="contact" data-parent="#nav" aria-labelledby="Section with contact details">
         <div class="card card-body">
         <h1>Let’s hang out, collaborate, and get me paid.</h1>
         <!-- Working for exposure is nice and all, but us millennials need the money. -->
@@ -514,7 +514,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <!-- End of SAY HELLO content -->
 
     <!-- content for COOL STUFF -->
-    <div class="collapse indent" id="thingsILike" data-parent="#nav">
+    <div class="collapse indent" id="thingsILike" data-parent="#nav" aria-labelledby="Section with snazzy links about things I like">
         <div class="card card-body">
         <h1>Things I enjoy outside my Netflix queue and will keep enjoying with all the money that you will definitely be giving to me.</h1>
         <p>Here is my dumping groud of things that I’m fond of, and some clues in case you don’t know what to get me for my birthday.</p>
@@ -533,7 +533,10 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
             <a href="https://www.theredhandfiles.com">Nick Cave</a> | 
             <a href="https://www.smithsonianmag.com/science-nature/why-carl-sagan-truly-irreplaceable-180949818/">Carl
               Sagan</a> |  
-            <a href="https://jnd.org">Don Norman</a>
+            <a href="https://jnd.org">Don Norman</a> | 
+            <a href="https://anthonybourdain.tumblr.com">Anthony Bourdain, always.
+                <!-- and in every genre. -->
+            </a>
         </p>
         <h2>Podcasts</h2>
         <p>
