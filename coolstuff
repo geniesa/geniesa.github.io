@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS and styling stuff -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+
+
+    body {
+        font-family: 'Work Sans', Sans-serif;
+        background-color: #153b47;}
+    a {color: darkcyan;}
+    h1 {font-weight: 800; color: #c7dcdb;}
+    h2 {font-weight: 700; color: #c7dcdb;}
+    p {color: #8db6b4;}
+    a:hover {color: darkgoldenrod;}
+    hr {
+      height: 1px;
+      opacity: 100%;
+      color: rgb(240, 173, 78);
+      margin-top: 0;
+    }
+    .card-body {
+      background-color: #153b47;
+      border-radius: 0;
+      border-right: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-top-color: #f0ad4e;
+      border-top-width: 10px;
+    }
+
+</style>
+
+<!-- META -->
+<title>Cool stuff.</title>
+<meta name="description" content="This is a list of stuff Genie likes.">
+</head>
+
+<body>
+
+<div class="card card-body">
+ <!-- content for COOL STUFF -->
+        <h1>Things I enjoy outside my Netflix queue and will keep enjoying with all the money that you will definitely be giving to me.</h1>
+        <p>Here is my dumping ground of things that I’m fond of, and some clues in case you don’t know what to get me for my birthday.</p>
+        <hr>
+        <h2>Writers</h2>
+        <p>
+            <a href="http://maryroach.net/">Mary Roach</a> |
+            <a href="https://www.davidsedarisbooks.com/">David Sedaris</a> |
+            <a href="https://twitter.com/gailsimone">Gail Simone</a> |
+            <a href="https://annehelen.substack.com/">Anne Helen Petersen</a> |
+            <a href="https://www.theatlantic.com/author/ed-yong/">Ed Yong</a> |
+            <a href="https://eriklarsonbooks.com/">Erik Larson</a> |
+            <a href="https://aiweirdness.com/">Janelle Shane</a> |
+            <a href="https://monachalabi.com/">Mona Chalabi</a> |
+            <a href="https://xkcd.com/">Randall Munroe</a> |		
+	    <a href="https://hyperboleandahalf.blogspot.com/">Allie Brosh</a> |
+            <a href="https://www.theredhandfiles.com">Nick Cave</a> | 
+            <a href="https://www.smithsonianmag.com/science-nature/why-carl-sagan-truly-irreplaceable-180949818/">Carl
+              Sagan</a> |  
+            <a href="https://jnd.org">Don Norman</a> | 
+            <a href="https://anthonybourdain.tumblr.com">Anthony Bourdain, always.
+                <!-- and in every genre. -->
+            </a>
+        </p>
+        <h2>Podcasts</h2>
+        <p>
+            <a href="https://99percentinvisible.org/">99PI</a> |
+            <a href="https://www.nosuchthingasafish.com/">No Such Thing as a Fish</a> |
+            <a href="https://www.wnycstudios.org/podcasts/radiolab">RadioLab</a> |
+            <a href="https://www.thisamericanlife.org/">This American Life</a> |
+            <a href="https://www.alieward.com/ologies">Ologies</a> |
+            <a href="https://www.si.edu/sidedoor">Sidedoor</a> |    
+            <a href="https://songexploder.net">Song Exploder</a>
+        </p>
+        <h2>Useful and not-so-useful things on, or about the internet</h2>
+        <p>
+            <a href="https://alistapart.com/">A List Apart</a> |
+            <a href="http://www.criticalaxis.org/">Critical Axis</a> |
+            <a href="https://www.mightycitizen.com/">Mighty Citizen</a> |
+            <a href="https://www.reddit.com/r/catsstandingup">This is peak internet</a> | 
+            <a href="https://pudding.cool/">The Pudding</a> |
+            <a href="https://www.effinbirds.com/">Effin’ Birds</a> |
+            <a href="https://www.syfy.com/tags/bad-astronomy">Bad Astronomy</a> |
+            <a href="https://dinosaurpictures.org/">The best database</a> |
+            <a href="https://informationisbeautiful.net/">Information is Beautiful</a> |
+            <a href="https://ethicalos.org/">Ethical OS</a> |
+            <a href="https://www.overdrive.com/apps/libby/">Libby</a> |
+            <a href="https://www.visitzealandia.com">Give them your donations</a> | 
+            <a href="https://neal.fun">Fun clicky things</a> | 
+            <a href="https://www.improbable.com/">Impropable Research</a> |
+            <a href="https://museumhack.com//">Museum Hack</a> |
+            <a href="https://www.npr.org/sections/alltechconsidered/2017/04/23/524514526/dogs-are-doggos-an-internet-language-built-around-love-for-the-puppers">This
+              piece on language on the internet</a> |
+            <a href="https://conbio.onlinelibrary.wiley.com/doi/abs/10.1111/cobi.13523">This makes me wish I were still in academia</a> |
+            <a href="https://blogs.scientificamerican.com/sa-visual/pop-culture-pulsar-origin-story-of-joy-division-s-unknown-pleasures-album-cover-video/ and https://www.scientificamerican.com/article/the-pulsar-chart-that-became-a-pop-icon-turns-50-joy-division-rsquo-s-unknown-pleasures/">When science meets art and becomes a pop culture icon</a> |
+            <a href="https://youtu.be/uE-1RPDqJAY">This beautiful art piece that thrives on organic search as opposed to referrals</a> | 
+            <a href="https://www.theonion.com/exhausted-noam-chomsky-just-going-to-try-and-enjoy-the-1819571502">This <i>Onion</i> piece that I will relate to more the older I get and the more clickbait I see</a>
+        </p>
+        <h2>Delicious stuff</h2>
+        <p>
+            <a href="https://garageproject.co.nz/">Garage Project</a> |
+            <a href="https://www.behemothbrewing.co.nz/">Behemoth Brewing</a> |
+            <a href="https://cassels.nz/product/milk-stout/">The world's best milk stout</a> |
+            <a href="https://ballastpoint.com">Ballast Point</a> |
+            <a href="https://www.thepiepiper.co.nz">The best pies Auckland will ever offer</a> |
+            <a href="https://www.mamias.co.nz">The maker of these sauces can take all my money because she deserves it</a> |
+            <a href="https://youtu.be/WMj7G-U3LW8">This sheer vision of joy</a>
+        </p>
+        <hr style="color:#f0ad4e">
+
+        </div>
+
+    </div>
+</div>
+
+    <!-- End of fun stuff container -->
+
+    <!-- FOOTER-->
+<footer class="footer bottom">
+    <div class="container">
+    <p style="color: rgb(119, 201, 197)">This page is licensed by Genie Tay under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC by 4.0</a>, and owes its life to <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+    </div>
+    </footer>
+    
+    
+      <!-- THIS STUFF BELOW MAKES THINGS WORK -->
+      <!-- Do not take this lightly. Bootstrap wants you to put this stuff in or your site becomes SAD, SENSELESS DOOM. -->
+      
+      <!-- Optional JavaScript: jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+      </script>
+    
+      <!-- jQuery to open links in another tab -->
+      <script>$("a").attr("target", "_blank");</script>
+    
+      <!-- More jQuery because I got angry at the state of buttons -->
+      <script>
+      $(document).ready(function () {
+        $('button').on('click', function() {
+        $('button').removeClass('active');
+        $(this).addClass('active');
+      });
+      }); 
+      </script>
+    
+    </body>
+    </html>
