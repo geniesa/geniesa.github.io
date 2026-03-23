@@ -1,0 +1,24 @@
+# Block all
+User-agent: *AI*
+Disallow: /
+
+# Block OpenAI's GPTBot
+User-agent: GPTBot
+Disallow: /
+
+# Block Common Crawl (many AI)
+User-agent: CCBot
+Disallow: /
+
+# Block Anthropic/Claude
+User-agent: Anthropic-AI
+Disallow: /
+
+# Block GoogleBot
+User-agent: Googlebot
+Disallow: /
+
+
+# Block Google's AI crawler (search indexing but not AI training)
+User-agent: Google-Extended
+Disallow: /
